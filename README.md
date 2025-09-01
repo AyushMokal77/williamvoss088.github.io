@@ -9,8 +9,6 @@
 responsive for all devices, built using **`HTML`**, **`CSS`**, **`JavaScript`**, and **`Python`**.
 
 ![Made-with-python](https://img.shields.io/badge/Made%20with-Python-orange)
-[![Deploy](https://github.com/ivansaul/personal-portfolio/actions/workflows/deploy.yml/badge.svg)](https://github.com/ivansaul/personal-portfolio/actions/workflows/deploy.yml)
-![GitHub repo size](https://img.shields.io/github/repo-size/ivansaul/personal-portfolio)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ![GitHub stars][github-stars]
