@@ -35,93 +35,6 @@ responsive for all devices, built using **`HTML`**, **`CSS`**, **`JavaScript`**,
 
 Fork this project and rename the repo to `your_github_username.github.io`.
 
-> [!IMPORTANT]
-> For example, if your GitHub username is `ivansaul`. Rename the repository to `ivansaul.github.io`
-
-### Step 2
-
-Enable GitHub Pages on:
-
-`Repository(Settings) > Pages > Build and deployment > Source(GitHub Actions)`
-
-### Step 3
-
-Enable workflows:
-
-`Repository(Actions) > I understand my workflows, go ahead and enable them`
-
-### Step 4
-
-Go to the `config/` folder and replace the default data with your personal information.
-
-```bash
-config
-|-- assets
-|   |-- avatars
-|   |-- icons
-|   |-- posts
-|   |-- projects
-├── blog.yml
-├── contact.yml
-├── navbar.yml
-├── profile.yml
-├── projects.yml
-└── resume.yml
-```
-
-For example, to set your contact information, edit `config/profile.yml`.
-
-```yml
-INFO:
-  - label: "Email"
-    value: "richard@example.com"
-  - label: "Phone"
-    value: "+1 (213) 352-2795"
-  - label: "Birthday"
-    value: "June 26, 1996"
-  - label: "Location"
-    value: "Sacramento, California, USA"
-```
-
-> [!IMPORTANT]
-> Indentation Matters: YAML is sensitive to indentation. Ensure that each level of nesting is indented with consistent spaces (not tabs) to avoid errors when loading or parsing the data.
-
-<br/>
-
-> [!TIP]
-> You can upload your images directly to the `config/assets` folder or use an image server like [Imgur][imgur]. Both options are valid for customizing your portfolio. For example:
->
-> `avatar = "https://i.imgur.com/H5gx7JF.png"`
->
-> `avatar = "config/assets/avatars/my-avatar.png"`
-
-### Step 5: Enjoy 😉
-
-Now you can visit your portfolio at `https://your_github_username.github.io`
-
-Your personal portfolio will be built and updated automatically whenever any changes occur in the configuration files.
-
-> [!NOTE]
-> If you like my work and want to show some ❤️, please consider giving a ⭐️ to this Repository.
-
-## Screenshots
-
-![Desktop Demo][desktop-screenshot]
-![Mobile Demo][mobile-screenshot]
-
-## Contribute
-
-Contributions are welcome.
-
-## Facing any Issue?
-
-Feel free to open an [Issue][issue] :)
-
-## Contact
-
-If you want to contact me you can reach me at [Discord][discord].
-
-## Credits
 
 This project is based on [vcard portfolio][vcard]. The main focus of this project is adding new features and make it accessible to everyone.
 
@@ -129,13 +42,3 @@ This project is based on [vcard portfolio][vcard]. The main focus of this projec
 
 MIT
 
-[vcard]: https://github.com/codewithsadee/vcard-personal-portfolio
-[devfolio]: https://ivansaul.github.io/personal-portfolio
-[demo]: https://raw.githubusercontent.com/ivansaul/demos/master/python/personal-portfolio-demo.gif
-[discord]: https://discord.com/users/744755977684779038
-[issue]: https://github.com/ivansaul/personal-portfolio/issues
-[github-stars]: https://img.shields.io/github/stars/ivansaul/personal-portfolio?style=social
-[github-forks]: https://img.shields.io/github/forks/ivansaul/personal-portfolio?style=social
-[desktop-screenshot]: https://i.imgur.com/xKkMSwR.png
-[mobile-screenshot]: https://i.imgur.com/G1A1nBu.png
-[imgur]: https://imgur.com
